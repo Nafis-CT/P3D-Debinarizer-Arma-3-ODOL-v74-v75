@@ -29,12 +29,9 @@ namespace P3DDebinarizer
 				{
 				case 0:
 				{
-					OpenFileDialog openFileDialog = new OpenFileDialog();
-					openFileDialog.Filter = "ArmA P3d (ODOL)|*.p3d";
-					if (openFileDialog.ShowDialog() == DialogResult.OK)
-					{
-						Program.convertP3dFile(openFileDialog.FileName, null, false);
-					}
+					Application.EnableVisualStyles();
+					Application.SetCompatibleTextRenderingDefault(false);
+					Application.Run(new MainForm());
 					break;
 				}
 				case 1:
@@ -121,7 +118,7 @@ namespace P3DDebinarizer
 		}
 
 		// Token: 0x06000004 RID: 4 RVA: 0x000022B8 File Offset: 0x000004B8
-		private static bool convertP3dFile(string srcPath, string dstPath = null, bool allowOverwriting = false)
+		internal static bool convertP3dFile(string srcPath, string dstPath = null, bool allowOverwriting = false)
 		{
 			if (!allowOverwriting && srcPath == dstPath)
 			{

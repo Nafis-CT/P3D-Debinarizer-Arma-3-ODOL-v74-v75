@@ -1,0 +1,12 @@
+D:\laravel-project\collab\P3D-Debinarizer-Arma-3\bin\Release\net461\P3DDebinarizer.exe.config
+D:\laravel-project\collab\P3D-Debinarizer-Arma-3\bin\Release\net461\P3DDebinarizer.exe
+D:\laravel-project\collab\P3D-Debinarizer-Arma-3\bin\Release\net461\P3DDebinarizer.pdb
+D:\laravel-project\collab\P3D-Debinarizer-Arma-3\bin\Release\net461\bisdll.dll
+D:\laravel-project\collab\P3D-Debinarizer-Arma-3\bin\Release\net461\bisdll.pdb
+D:\laravel-project\collab\P3D-Debinarizer-Arma-3\obj\Release\net461\P3DDebinarizer.csproj.AssemblyReference.cache
+D:\laravel-project\collab\P3D-Debinarizer-Arma-3\obj\Release\net461\P3DDebinarizer.GeneratedMSBuildEditorConfig.editorconfig
+D:\laravel-project\collab\P3D-Debinarizer-Arma-3\obj\Release\net461\P3DDebinarizer.csproj.CoreCompileInputs.cache
+D:\laravel-project\collab\P3D-Debinarizer-Arma-3\obj\Release\net461\P3DDebinarizer.sourcelink.json
+D:\laravel-project\collab\P3D-Debinarizer-Arma-3\obj\Release\net461\P3DDebin.09FF7FC6.Up2Date
+D:\laravel-project\collab\P3D-Debinarizer-Arma-3\obj\Release\net461\P3DDebinarizer.exe
+D:\laravel-project\collab\P3D-Debinarizer-Arma-3\obj\Release\net461\P3DDebinarizer.pdb

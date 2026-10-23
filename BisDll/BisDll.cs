@@ -2389,14 +2389,14 @@ namespace BisDll.Model.ODOL
 			{
 				appID = input.ReadUInt32();
 			}
-			if (base.Version >= 58)
-			{
-				muzzleFlash = input.ReadAsciiz();
-			}
 			if (base.Version >= 74)
 			{
 				input.ReadUInt32(); // v74+ unknown field 1
 				input.ReadUInt32(); // v74+ unknown field 2
+			}
+			if (base.Version >= 58)
+			{
+				muzzleFlash = input.ReadAsciiz();
 			}
 			nLods = input.ReadInt32();
 			resolutions = new float[nLods];

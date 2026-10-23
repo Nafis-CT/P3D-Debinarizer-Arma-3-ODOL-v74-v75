@@ -1,0 +1,121 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\laravel-project\\collab\\P3D-Debinarizer-Arma-3\\P3DDebinarizer.csproj": {}
+  },
+  "projects": {
+    "D:\\laravel-project\\collab\\P3D-Debinarizer-Arma-3\\BisDll\\BisDll.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\laravel-project\\collab\\P3D-Debinarizer-Arma-3\\BisDll\\BisDll.csproj",
+        "projectName": "bisdll",
+        "projectPath": "D:\\laravel-project\\collab\\P3D-Debinarizer-Arma-3\\BisDll\\BisDll.csproj",
+        "packagesPath": "C:\\Users\\Nafis\\.nuget\\packages\\",
+        "outputPath": "D:\\laravel-project\\collab\\P3D-Debinarizer-Arma-3\\BisDll\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nafis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "framework": "net461",
+            "targetAlias": "net461",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
+      },
+      "frameworks": {
+        "net461": {
+          "framework": "net461",
+          "targetAlias": "net461",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\laravel-project\\collab\\P3D-Debinarizer-Arma-3\\P3DDebinarizer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\laravel-project\\collab\\P3D-Debinarizer-Arma-3\\P3DDebinarizer.csproj",
+        "projectName": "P3DDebinarizer",
+        "projectPath": "D:\\laravel-project\\collab\\P3D-Debinarizer-Arma-3\\P3DDebinarizer.csproj",
+        "packagesPath": "C:\\Users\\Nafis\\.nuget\\packages\\",
+        "outputPath": "D:\\laravel-project\\collab\\P3D-Debinarizer-Arma-3\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Nafis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "framework": "net461",
+            "targetAlias": "net461",
+            "projectReferences": {
+              "D:\\laravel-project\\collab\\P3D-Debinarizer-Arma-3\\BisDll\\BisDll.csproj": {
+                "projectPath": "D:\\laravel-project\\collab\\P3D-Debinarizer-Arma-3\\BisDll\\BisDll.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
+      },
+      "frameworks": {
+        "net461": {
+          "framework": "net461",
+          "targetAlias": "net461",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
